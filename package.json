@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/TUANKIET0397/Checkers/issues"
   },
-  "homepage": "https://github.com/TUANKIET0397/Checkers#readme"
+  "homepage": "https://github.com/TUANKIET0397/Checkers#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10",
+    "sass": "^1.90.0"
+  }
 }
