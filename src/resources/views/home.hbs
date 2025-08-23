@@ -1,0 +1,21 @@
+{{#contentFor "styles"}}
+    <link rel="stylesheet" href="/css/app.css" />
+{{/contentFor}}
+<section>
+    <div class="signin">
+        <div class="content">
+            <h2>✖️ or ⭕</h2>
+            <form class="login-form" method="post" action="/player">
+                <input
+                    class="input-name"
+                    name="name"
+                    type="text"
+                    placeholder="Enter your name"
+                    autocomplete="off"
+                    required
+                />
+                <button type="submit" id="play-button">Start Game</button>
+            </form>
+        </div>
+    </div>
+</section>
