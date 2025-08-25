@@ -23,6 +23,27 @@ module.exports = (io) => {
             io.emit("startGame")
         }
 
+        // Xử lý nước đi
+        socket.on("move", (data) => {
+            socket.broadcast.emit("move", data)
+            currentTurn = currentTurn === "X" ? "O" : "X"
+            io.emit("turn", currentTurn)
+        })
+
+        socket.on("win", (data) => {
+            io.emit("win", data)
+        })
+
+        socket.on("draw", (data) => {
+            io.emit("draw", data)
+        })
+
+        socket.on("reset", () => {
+            currentTurn = "X"
+            io.emit("reset")
+            io.emit("turn", currentTurn)
+        })
+
         socket.on("disconnect", () => {
             console.log("❌ User disconnected:", socket.id)
             players = players.filter((p) => p.id !== socket.id)
