@@ -1,33 +1,33 @@
 {
-  "name": "checkers",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon --inspect src/index.js",
-    "watch": "sass --watch src/resources/scss/:src/public/css/",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TUANKIET0397/Checkers.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TUANKIET0397/Checkers/issues"
-  },
-  "homepage": "https://github.com/TUANKIET0397/Checkers#readme",
-  "dependencies": {
-    "express": "^5.1.0",
-    "express-handlebars": "^8.0.3",
-    "socket.io": "^4.8.1",
-    "socket.io-client": "^4.8.1"
-  },
-  "devDependencies": {
-    "morgan": "^1.10.1",
-    "nodemon": "^3.1.10",
-    "sass": "^1.90.0"
-  }
+    "name": "checkers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "sass --watch src/resources/scss/:src/public/css/",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TUANKIET0397/Checkers.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TUANKIET0397/Checkers/issues"
+    },
+    "homepage": "https://github.com/TUANKIET0397/Checkers#readme",
+    "dependencies": {
+        "express": "^5.1.0",
+        "express-handlebars": "^8.0.3",
+        "socket.io": "^4.8.1",
+        "socket.io-client": "^4.8.1"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.1",
+        "nodemon": "^3.1.10",
+        "sass": "^1.90.0"
+    }
 }
