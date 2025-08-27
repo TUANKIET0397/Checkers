@@ -50,5 +50,5 @@ Dự án này chạy bằng **Node.js**, file khởi động chính là **index.
 ## ▶️ Chạy dự án
 
 ```bash
-npm src/index.js
+node src/index.js
 ```
