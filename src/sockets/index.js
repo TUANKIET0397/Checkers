@@ -1,5 +1,5 @@
 // socket.io
-const gameSocket = require("./gameSocket")
+const gameSocket = require("./gameSockets")
 
 module.exports = (io) => {
     // Khởi tạo game socket
